@@ -1,0 +1,46 @@
+
+.id {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: start;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px 15px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 41%) 2px 3px 14px 2px;
+    overflow: hidden;
+}
+.card {
+    margin: 20px auto 0px;
+    width: 300px;
+    padding: 0px;
+}
+.statusOnline,
+.statusOffline {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 0 15px 0 15px;
+}
+
+.statusOffline {
+    background-color: red;
+}
+.avatar {
+    margin-left: 15px;
+    width: 60px;
+    border-radius: 5px;
+}
+.name {
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.id:not(:last-child) {
+    margin-bottom: 10px;
+}
