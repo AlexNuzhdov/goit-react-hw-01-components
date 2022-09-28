@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AlexNuzhdov/goit-react-hw-01-components/static/css/main.4e48d6f1.css",
+    "main.js": "/AlexNuzhdov/goit-react-hw-01-components/static/js/main.75f4bd88.js",
+    "index.html": "/AlexNuzhdov/goit-react-hw-01-components/index.html",
+    "main.4e48d6f1.css.map": "/AlexNuzhdov/goit-react-hw-01-components/static/css/main.4e48d6f1.css.map",
+    "main.75f4bd88.js.map": "/AlexNuzhdov/goit-react-hw-01-components/static/js/main.75f4bd88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e48d6f1.css",
+    "static/js/main.75f4bd88.js"
+  ]
+}
