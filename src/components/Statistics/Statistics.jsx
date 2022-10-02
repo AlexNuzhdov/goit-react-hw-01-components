@@ -2,11 +2,10 @@ import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 
 
-
- export const Statistics = ({title, stats}) => {
+export const Statistics = ({title, stats}) => {
    return ( 
     <section className={css.card}>
-  <h2 className={css.title}>Upload stats</h2>
+    {title && <h2 className={css.title}>{title}</h2>}
 
     <ul className={css.list}>
         {stats.map(({ id, label, percentage }) => (
@@ -22,12 +21,12 @@ import css from './Statistics.module.css';
 };
 
 Statistics.protoTypes = {
-  title: PropTypes.string,
+  title: PropTypes.string.isRequired,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.string,
-      label: PropTypes.string,
-      percentage: PropTypes.number,
+      id: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+      percentage: PropTypes.number.isRequired,
     })
   )
 };
